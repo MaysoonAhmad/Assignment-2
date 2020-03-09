@@ -1,0 +1,31 @@
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\MonthlyBudjet.deps.json
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\MonthlyBudjet.dll
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\MonthlyBudjet.pdb
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.csproj.CoreCompileInputs.cache
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.AssemblyInfoInputs.cache
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.AssemblyInfo.cs
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.dll
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.pdb
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.csprojAssemblyReference.cache
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\GreetingPage.xaml.g.cs
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\Views\MonthlyExpensesMainPage.xaml.g.cs
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\GreetingPage.xaml
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\obj\Debug\netstandard2.0\GreetingPage.xaml.g.cs
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\Views\AddExpensePopupPage.xaml.g.cs
+F:\Work\Mobile Apps\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\GreetingPage.xaml
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\obj\Debug\netstandard2.0\GreetingPage.xaml.g.cs
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\MonthlyBudjet.deps.json
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\MonthlyBudjet.dll
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\bin\Debug\netstandard2.0\MonthlyBudjet.pdb
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.csprojAssemblyReference.cache
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\GreetingPage.xaml.g.cs
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\Views\AddExpensePopupPage.xaml.g.cs
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\Views\MonthlyExpensesMainPage.xaml.g.cs
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.AssemblyInfoInputs.cache
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.AssemblyInfo.cs
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.dll
+C:\Users\shaim\Documents\MonthlyBudjet\MonthlyBudjet\MonthlyBudjet\obj\Debug\netstandard2.0\MonthlyBudjet.pdb

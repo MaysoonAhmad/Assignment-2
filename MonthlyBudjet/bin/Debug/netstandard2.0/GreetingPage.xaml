@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonthlyBudjet.GreetingPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <!--<Label x:Name="sliderVlaueLabel" 
+                   Text="{Binding 
+                            Source={x:Reference slider},
+                            Path=Value,
+                            StringFormat='Value is {0:F2}'
+                    }"
+                   Opacity="{Binding 
+                                Source={x:Reference slider},
+                                Path=Value
+                    }"
+                   FontSize="Large"/>-->
+
+            <Label x:Name="sliderVlaueLabel" 
+                   BindingContext="{x:Reference slider}"
+                   Text="{Binding Path=Value, StringFormat='Value is {0:F2}' }"
+                   Opacity="{Binding Path=Value}"
+                   FontSize="Large"/>
+
+
+            <Slider x:Name="slider"></Slider>
+            
+            <!--<Button x:Name="ClickMeBtn" 
+                    x:Uid="ClickMeBtn" 
+                    Text="Click Me!" 
+                    HorizontalOptions="StartAndExpand" 
+                    VerticalOptions="CenterAndExpand" 
+                    Clicked="Handle_ClickMeBtn"></Button>-->
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

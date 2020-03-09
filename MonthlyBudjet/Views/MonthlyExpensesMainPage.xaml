@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonthlyBudjet.Views.MonthlyExpensesMainPage"
+             xmlns:ViewModels="clr-namespace:MonthlyBudjet.ViewModels">
+    
+    <ContentPage.BindingContext>
+        <ViewModels:MonthlyExpensesMainPageViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout 
+            VerticalOptions="StartAndExpand" 
+            HorizontalOptions="CenterAndExpand">
+            
+            <Label Text="Your Monthly Expenses" FontSize="30" HorizontalOptions="Center"/>
+
+            <StackLayout x:Name="startContentLayout" IsVisible="{Binding Path=DisplayStartContentLayout}">
+                <Label Text="Enter your monthly goal budjet" />
+                <Entry Text="{Binding Path=MonthlyTarget}" />
+                <Button Text="Save" BackgroundColor="DodgerBlue" Command="{Binding Path=SaveTargetCommand}"/>
+            </StackLayout>
+            
+            <StackLayout x:Name="mainContentLayout" IsVisible="{Binding Path=DisplayMainContentLayout}">
+                
+                <Grid Padding="5" HeightRequest="80">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Path=MonthlyTarget, StringFormat='Your Goal is {0}$'}" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Button Grid.Row="0" Grid.Column="1" Text="Add" VerticalOptions="FillAndExpand" FontSize="Medium" Command="{Binding AddExpenseCommand}" />
+
+                </Grid>
+            
+                <ListView ItemsSource="{Binding Path=Expenses}" HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="Gray">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding Path=IconImageResourceId}" Aspect="Fill" WidthRequest="100" HeightRequest="100" />
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="{Binding Path=Name}" FontSize="Medium" />
+                                        <Label Text="{Binding Path=Amout, StringFormat='Amount is: {0:F2}$'}" />
+                                        <Label Text="{Binding Path=DateTimeStamp}"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
