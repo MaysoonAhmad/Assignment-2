@@ -15,6 +15,8 @@ namespace MonthlyBudjet.ViewModels
         public string ExpenseName { get; set; }
         public string ExpenseCategory { get; set; }
 
+        public DateTime ExpensesDateTime { get; set; }
+
         public List<string> CategoriesList {
             get {
                 return new List<string>() {
@@ -51,13 +53,15 @@ namespace MonthlyBudjet.ViewModels
                         Name = ExpenseName,
                         IconImageResourceId = string.Format("{0}.jpg", ExpenseCategory.ToLower()),
                         Id = Guid.NewGuid().ToString(),
-                        DateTimeStamp = DateTime.Now
+                    DateTimeStamp = ExpensesDateTime
                     });
 
                     await PopupNavigation.Instance.PopAsync(true);
                 });
             }
         }
+
+      
 
     }
 }
