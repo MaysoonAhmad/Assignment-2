@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonthlyBudjet.Views.AddExpensePopupPage"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:ViewModels="clr-namespace:MonthlyBudjet.ViewModels">
+    <ContentPage.BindingContext>
+        <ViewModels:AddExpensePopupPageViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="12" Padding="24" Spacing="24" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center">
+
+            <StackLayout>
+                <Label Text="Name" />
+                <Entry Text="{Binding Path=ExpenseName}" />
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Amount" />
+                <Entry Text="{Binding Path=ExpenseAmount}"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Category" />
+                <Picker x:Name="categoriesPicker" 
+                        Title="Select Category" 
+                        ItemsSource="{Binding Path=CategoriesList}" 
+                         SelectedItem="{Binding Path=ExpenseCategory}" 
+                        />
+                
+            </StackLayout>
+
+            <StackLayout>
+                <Label x:Name="DateLabel" Text="Date" />
+                <DatePicker x:Name="DatePicker" MinimumDate="1/1/2020" MaximumDate="1/1/2080"
+                            Date="{Binding ExpensesDateTime}" Format="dd-MMM,yyyy"/>
+
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Button BackgroundColor="DodgerBlue" Text="Save" Command="{Binding Path=SaveExpenseCommand}" />
+                <Button BackgroundColor="Gray" Text="Cancel" Command="{Binding Path=CancelCommand}" />
+            </StackLayout>
+            
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</pages:PopupPage>
