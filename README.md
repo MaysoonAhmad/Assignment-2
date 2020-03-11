@@ -1,5 +1,6 @@
-***Monthley Budget***
+# Monthley Budget Tracker Mobile Application
    _________________________________________________________________________             
+
 ## Assignment Video  
                      
 ## Index  
