@@ -5,12 +5,12 @@
                 
                 $$$  Assignment Video  $$$$$
                      
-    ______________________________________________________________
+   
                          $$$  Index  $$$
                      
    1. How to  Setup monthely budget and save it.
    
-   2  How to add user  expenses for the month.
+   2.  How to add user  expenses for the month.
    
    3.  Project Object.
    
