@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
              
   Track your expense by set up your monthly budget. 
-  Then user should be shown a screen that contains a button to add their expenses for that month.
+  Then you should be shown a screen that contains a button to add your expenses for that month.
 
 _____________________________________________________________________________________________________
                          $$$$ Project object $$$$
