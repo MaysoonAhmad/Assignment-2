@@ -32,8 +32,8 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Path=MonthlyTarget, StringFormat='Your Goal is {0}$'}" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" />
-                    <Button Grid.Row="0" Grid.Column="1" Text="Add" VerticalOptions="FillAndExpand" FontSize="Medium" Command="{Binding AddExpenseCommand}" />
+                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Path=MonthlyTarget, StringFormat='Your Goal is {0}$'}" TextColor="Red" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Button Grid.Row="0" Grid.Column="1" Text="Add" VerticalOptions="FillAndExpand" BackgroundColor="BurlyWood"  FontSize="Medium" Command="{Binding AddExpenseCommand}" />
 
                 </Grid>
             
@@ -46,7 +46,7 @@
                                     <StackLayout Orientation="Vertical">
                                         <Label Text="{Binding Path=Name}" FontSize="Medium" />
                                         <Label Text="{Binding Path=Amout, StringFormat='Amount is: {0:F2}$'}" />
-                                        <Label Text="{Binding Path=DateTimeStamp}"/>
+                                        <Label Text="{Binding Path=DateTimeStamp,StringFormat='{0:dd MMMM,yyyy}'}"/>
                                     </StackLayout>
                                 </StackLayout>
                             </ViewCell>

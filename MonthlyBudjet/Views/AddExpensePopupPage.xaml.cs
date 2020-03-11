@@ -17,5 +17,8 @@ namespace MonthlyBudjet.Views
         {
             InitializeComponent();
         }
+
+        
+       
     }
 }

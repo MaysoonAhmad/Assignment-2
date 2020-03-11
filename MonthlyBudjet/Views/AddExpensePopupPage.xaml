@@ -26,10 +26,19 @@
                 <Picker x:Name="categoriesPicker" 
                         Title="Select Category" 
                         ItemsSource="{Binding Path=CategoriesList}" 
-                         SelectedItem="{Binding Path=ExpenseCategory}" />
+                         SelectedItem="{Binding Path=ExpenseCategory}" 
+                        />
                 
             </StackLayout>
-            
+
+            <StackLayout>
+                <Label x:Name="DateLabel" Text="Date" />
+                <DatePicker x:Name="DatePicker" MinimumDate="1/1/2020" MaximumDate="1/1/2080"
+                            Date="{Binding ExpensesDateTime}" Format="dd-MMM,yyyy"/>
+
+            </StackLayout>
+
+
             <StackLayout Orientation="Horizontal" Spacing="20">
                 <Button BackgroundColor="DodgerBlue" Text="Save" Command="{Binding Path=SaveExpenseCommand}" />
                 <Button BackgroundColor="Gray" Text="Cancel" Command="{Binding Path=CancelCommand}" />
