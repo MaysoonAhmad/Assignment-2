@@ -38,4 +38,4 @@ Building  a modal that allows the user to input details for their expenses.
 
 
  ## Attribute
-Music icon icon by Icons8
+Music icon icon by icons8
