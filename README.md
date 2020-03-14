@@ -1,4 +1,4 @@
-                  ## Monthley Budget Tracker Mobile Application
+   ## Monthley Budget Tracker Mobile Application
 
 
 
