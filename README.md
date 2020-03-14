@@ -20,8 +20,7 @@ https://www.youtube.com/watch?v=3WPf4F53sQQ
    
    4.  References
    
-  ## Attribute
-Music icon icon by Icons8
+
    
  
 ## What you can do with this  Expense Tracking app 
@@ -35,3 +34,7 @@ ________________________________________________________________________________
 ## Project object 
 The end product of the project is to build Expense Tracking app by 
 Building  a modal that allows the user to input details for their expenses.
+
+
+ ## Attribute
+Music icon icon by Icons8
