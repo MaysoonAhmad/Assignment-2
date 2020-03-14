@@ -15,6 +15,7 @@ https://www.youtube.com/watch?v=3WPf4F53sQQ
    1. How to  Setup monthely budget and save it.
    
    2.  How to add user's  expenses for the month.
+   4. How to setup a modal that allows the users to input details for their expenses: the name, amount, date the purchase was made on,          and an icon to categorize the item.
    
    3.  Project Object.
    
